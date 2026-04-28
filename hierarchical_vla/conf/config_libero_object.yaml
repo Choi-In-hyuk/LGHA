@@ -1,0 +1,24 @@
+# Preset configuration for libero_object
+
+defaults:
+  - config
+
+# Override specific values for libero_object
+data_directory: /home/pilab/workspace/Documents/Datasets/libero_object
+use_all_suites: false
+max_len_data: 260
+demos_per_task: 1
+save_dir: ./checkpoints/libero_object
+
+# Evaluation settings
+eval_during_training: 1
+eval_benchmark_type: libero_object
+eval_num_rollouts: 1
+eval_max_steps: 600
+eval_use_multiprocessing: false
+eval_n_cores: 8
+
+# Wandb settings
+wandb:
+  project: test
+  name: libero_object

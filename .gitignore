@@ -1,0 +1,32 @@
+# External repos (별도 관리)
+LIBERO
+MambaVLA
+openvla-oft
+
+# Hydra outputs
+outputs/
+
+# Checkpoints
+checkpoints/
+*.pth
+*.pt
+*.pkl
+
+# Scene cache
+scene_cache/
+
+# Videos
+videos/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+wandb/

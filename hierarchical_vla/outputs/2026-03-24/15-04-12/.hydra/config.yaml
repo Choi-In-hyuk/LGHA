@@ -1,0 +1,50 @@
+data_directory: /home/choi/LGHA/LIBERO/libero/datasets/libero_10_subset
+use_all_suites: false
+max_len_data: 400
+demos_per_task: 50
+obs_dim: 32
+action_dim: 7
+state_dim: 45
+image_encoder_type: resnet
+latent_dim: 256
+embed_dim: 256
+n_layer: 5
+d_intermediate: 256
+obs_tok_len: 2
+action_seq_len: 10
+sampling_steps: 4
+eagle_tune_llm: false
+eagle_tune_visual: true
+batch_size: 256
+num_epochs: 2000
+learning_rate: 0.0001
+transformer_weight_decay: 0.05
+obs_encoder_weight_decay: 0.05
+betas:
+- 0.9
+- 0.9
+enable_ema: true
+ema_decay_rate: 0.995
+enable_data_scaling: true
+data_scaler_type: minmax
+save_freq: 10
+num_workers: 0
+eval_during_training: null
+eval_benchmark_type: libero_object
+eval_all_suites: false
+eval_num_rollouts: 5
+eval_max_steps: 400
+eval_use_multiprocessing: false
+eval_n_cores: 4
+render_image: false
+save_video: false
+save_video_dir: null
+seed: 42
+wandb:
+  project: MambaVLA-Immitaion-Learning
+  entity: your_wandb_entity
+  name: new_model
+  enabled: false
+resume_checkpoint: null
+device: null
+save_dir: ./checkpoints/libero_10_subset

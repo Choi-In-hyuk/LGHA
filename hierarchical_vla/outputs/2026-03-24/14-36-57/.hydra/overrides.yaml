@@ -1,0 +1,5 @@
+- data_directory=/home/choi/LGHA/LIBERO/libero/datasets/libero_90
+- save_dir=./checkpoints/libero_90
+- num_epochs=2000
+- max_len_data=400
+- wandb.enabled=false

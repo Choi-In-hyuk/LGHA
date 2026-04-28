@@ -1,0 +1,20 @@
+# Preset configuration for all suites
+
+defaults:
+  - config
+
+# Override specific values for all suites
+data_directory: /home/navaneet/LIBERO/libero/datasets
+use_all_suites: true
+max_len_data: 530
+save_dir: ./checkpoints/libero_all_tasks
+
+# Evaluation settings
+eval_during_training: 100
+eval_all_suites: true
+eval_num_rollouts: 1
+eval_max_steps: 600
+
+# Wandb settings
+wandb:
+  name: libero_all_tasks
