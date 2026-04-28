@@ -1,6 +1,0 @@
-- data_directory=/home/choi/LGHA/LIBERO/libero/datasets/libero_10_subset
-- save_dir=./checkpoints/libero_10_subset_scene
-- num_epochs=2000
-- max_len_data=400
-- num_workers=0
-- wandb.enabled=false

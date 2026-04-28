@@ -5,6 +5,7 @@ openvla-oft
 
 # Hydra outputs
 outputs/
+hierarchical_vla/outputs/
 
 # Checkpoints
 checkpoints/
