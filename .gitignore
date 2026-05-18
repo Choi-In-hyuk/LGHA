@@ -18,6 +18,14 @@ scene_cache/
 
 # Videos
 videos/
+eval_videos/
+eval_videos_lora/
+*.gif
+*.mp4
+
+# Logs & collected data
+logs/
+*.jsonl
 
 # Python
 __pycache__/
